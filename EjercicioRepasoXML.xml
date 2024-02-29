@@ -14,3 +14,36 @@ Listado de competencias, indicando el nombre y el nivel.
 Formación académica, con la titulación, el centro de formación y el año de la titulación.
 Experiencia profesional, especificando el puesto, la empresa, el año de inicio y el año de finalización.
 -->
+<cv>
+	<nombre_completo>Pablo Humanes Gandul</nombre_completo>
+	<anio_nacimiento>2004</anio_nacimiento>
+	<residencia>
+		<ciudad>Sevilla</ciudad>
+		<pais>España</pais>
+	</residencia>
+	<datos_contacto>
+		<telefono>+34 685 41 93 20</telefono>
+		<email>pablohumanesgandul04@gmail.com</email>
+		<linkedin>https://www.linkedin.com/in/pablo-humanes-gandul-</linkedin>
+	</datos_contacto>
+	
+	<descripcion>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</descripcion>
+	<competencias nombre="programacion" nivel="medio"/>
+	<competencias nombre="bbdd" nivel="medio"/>
+	<formacion>
+		<titulacion nombre="Entrenador de padel Nivel 1" centro="Padel Fiting"/>
+	</formacion>
+	<experiencia-profesional>
+		<experiencia>
+			<puesto>Monitor de Padel</puesto>
+			<empresa>Siting Padel Club</empresa>
+			<duracion>4 meses</duracion>
+			<fin></fin>
+		</experiencia>
+	</experiencia-profesional>
+</cv>
