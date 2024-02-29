@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sombrero SYSTEM "sombrero.dtd" [
+	<!ELEMENT sombrero (material,color)>
+	<!ELEMENT material (#PCDATA)>
+	<!ELEMENT color (#PCDATA)>
+	]>
+
+<sombrero> El sombrero es de
+	<material>fieltro</material> y es de color
+	<color>verde</color>
+</sombrero>
