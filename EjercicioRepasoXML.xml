@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Representa en un documento XML tu curriculum vitae. Los datos que debe contener son los siguientes:
+Nombre y apellidos.
+Año de nacimiento.
+Residencia:
+Ciudad.
+País.
+Datos de contacto:
+Teléfono.
+Correo electrónico.
+Perfil LinkedIn.
+Breve descripción general.
+Listado de competencias, indicando el nombre y el nivel.
+Formación académica, con la titulación, el centro de formación y el año de la titulación.
+Experiencia profesional, especificando el puesto, la empresa, el año de inicio y el año de finalización.
+-->
