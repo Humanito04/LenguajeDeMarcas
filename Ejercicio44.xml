@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE bizcochos [
+    <!ELEMENT bizcochos (ingredientes)>
+    <!ELEMENT ingredientes(ingrediente+)>
+    <!ELEMENT ingrediente (#PCDATA)>
+    <!ELEMENT tipos(tipo+)>
+    <!ELEMENT tipo (#PCDATA)>
+]>

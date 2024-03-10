@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE articulos[
+    <!ELEMENT articulos (articulo+)>
+    <!ELEMENT articulo (nombre, precio, codigo, fabricante)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ATTLIST codigo ID>
+    <!ELEMENT fabricante (#PCDATA)
+]>
+
+<articulos>
+    <articulo>
+        <nombre>El Mundo ataca</nombre>
+        <precio>40</precio>
+        <coddigo>31534</codigo>
+        <fabricante>El Mundo</fabricante>
+    </articulo>
+    <articulo>
+        <nombre>Alopecia express</nombre>
+        <precio>35</precio>
+        <codigo>32135</codigo>
+        <fabricante>El Pais</fabricante>
+    </articulo>
+
+</articulos>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE directorio SYSTEM "directorio.dtd"[
+    <!ELEMENT directorio (persona) +>
+    <!ELEMENT persona (#PCDATA) >
+    <!ATTLIST persona nacionalidad CDATA "española"
+        sexo (Hombre | Mujer) #IMPLIED id ID #REQUIRED>
+]>

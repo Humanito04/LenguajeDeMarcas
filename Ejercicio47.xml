@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Moviles [
+<!ELEMENT Moviles (Movil+)>
+<!ELEMENT Movil (Modelo, precio, Fabricante, color)>
+<!ELEMENT Modelo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT Fabricante (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+]>
+
+<moviles>
+	<movil>
+		<modelo>Iphone 13 </modelo>
+		<precio>620 </precio>
+		<fabricante> Apple </fabricante>
+		<color> Blanco </color>
+	</movil>	
+		<movil>
+		<modelo> Samsung Galaxy </modelo>
+		<precio> 700 </precio>
+		<fabricante> Samsung </fabricante>
+		<color> Negro </color>
+	</movil>
+</moviles>
